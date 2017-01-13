@@ -3,14 +3,10 @@
 #
 #
 #
-FROM appsoa/centos-base-java:testing
+FROM appsoa/docker-centos-base-java:testing
 
 ENV TZ="America/Phoenix" \
-    DISPLAY=":1" \
-    NO_VNC_HOME="/opt/noVNC" \
-    VNC_COL_DEPTH="16" \
-    VNC_RESOLUTION="1280x1024 "\
-    VNC_PW="algolab2017" 
+    DISPLAY=":1"
 
 RUN useradd -g wheel user && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone && \

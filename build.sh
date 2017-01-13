@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE="appsoa"
-IMAGE_NAME="centos-desktop-xfce"
+IMAGE_NAME="docker-centos-desktop-xfce"
 VERSION="testing"
 NAME="xfce"
 

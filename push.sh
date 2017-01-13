@@ -1,3 +1,3 @@
 #!/bin/bash
  
-docker push appsoa/centos-desktop-xfce:testing
+docker push appsoa/docker-centos-desktop-xfce:testing
