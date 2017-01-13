@@ -25,5 +25,3 @@ RUN    rm /etc/xdg/autostart/at-spi-dbus-bus.desktop \
           /etc/xdg/autostart/caribou-autostart.desktop \
           /etc/xdg/autostart/xscreensaver.desktop \
           /etc/xdg/autostart/xfce-polkit.desktop
-
-CMD ["supervisord", "-c", "/etc/supervisord.conf"]
