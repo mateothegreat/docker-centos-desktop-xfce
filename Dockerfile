@@ -3,7 +3,7 @@
 #
 #
 #
-FROM yomateo/centos-base-java:testing
+FROM appsoa/centos-base-java:testing
 
 ENV TZ="America/Phoenix" \
     DISPLAY=":1" \
