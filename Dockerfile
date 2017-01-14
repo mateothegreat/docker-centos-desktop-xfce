@@ -1,7 +1,7 @@
 #
 #
 #
-FROM    appsoa/docker-centos-base-java:testing
+FROM    appsoa/docker-centos-base-java:latest
 
 COPY    src/etc /etc
 
