@@ -44,3 +44,10 @@ Pushing docker-centos-desktop-xfce:virtualmachines-154415
         e1ddcc621d96: Pushed
         1.0.0: digest: sha256:fe0ebfb58ef042301b01a7ae69ab434aaf53e62782f99eb3f0d333a99bdeef54 size: 1370
 ```
+
+```
+
+docker-centos-tools/build.sh docker-centos-desktop-xfce/ virtualmachines-154415 docker-centos-desktop-xfce 1.0.0-4 gcr.io '--no-cache' && \
+docker-centos-tools/push.sh docker-centos-desktop-xfce virtualmachines-154415 docker-centos-desktop-xfce 1.0.0-4 gcr.io 
+
+```
