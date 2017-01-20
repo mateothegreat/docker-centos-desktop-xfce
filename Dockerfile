@@ -1,7 +1,7 @@
 #
 #
 #
-FROM    appsoa/docker-centos-base-java:latest
+FROM    gcr.io/virtualmachines-154415/docker-centos-base-java:1.8.0_60
 
 COPY    src/etc /etc
 
