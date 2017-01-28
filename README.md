@@ -1,5 +1,8 @@
 # docker-centos-desktop-xfce
 
+![xfce](http://i.imgur.com/auSpA3p.png)
+
+
 http://docs.xfce.org/xfce/start
 
 ```

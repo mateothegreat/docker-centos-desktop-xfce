@@ -1,7 +1,8 @@
 #
 #
 #
-FROM    gcr.io/virtualmachines-154415/docker-centos-base-java:1.8.0_60
+FROM    appsoa/docker-centos-base-java:1.8.0_60
+MAINTAINER Matthew Davis <matthew@appsoa.io>
 
 COPY    src/etc /etc
 
